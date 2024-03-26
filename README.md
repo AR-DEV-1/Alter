@@ -6,4 +6,4 @@ Open Source AI for everyone.
 Alter is an Open Source AI made for everyone. The source code is avalible under the MIT license. It is being actively developed. New updates will be released soon.
 `Expect bugs...`
 `Status:Alpha`
-No download required. Even you can contribute!
+Even you can contribute!
