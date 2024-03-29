@@ -52,7 +52,7 @@ const botReply = [
   ],
   ["I am always young."],
   ["I am just a bot", "I am a bot. What are you?"],
-  ["Sabitha Kuppusamy"],
+  ["AR-DEV-1"],
   ["I am nameless", "I don't have a name"],
   ["I love you too", "Me too"],
   ["Have you ever felt bad?", "Glad to hear it"],
@@ -83,7 +83,7 @@ const synth = window.speechSynthesis;
 function voiceControl(string) {
   let u = new SpeechSynthesisUtterance(string);
   u.text = string;
-  u.lang = "en-aus";
+  u.lang = "en-us";
   u.volume = 1;
   u.rate = 1;
   u.pitch = 1;
