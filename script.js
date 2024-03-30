@@ -1,7 +1,7 @@
 const userMessage = [
   ["hi", "hey", "hello"],
   ["sure", "yes", "no"],
-  ["are you genious", "are you nerd", "are you intelligent"],
+  ["are you genius", "are you nerd", "are you intelligent"],
   ["i hate you", "i dont like you"],
   ["how are you", "how is life", "how are things", "how are you doing"],
   ["how is corona", "how is covid 19", "how is covid19 situation"],
@@ -9,7 +9,6 @@ const userMessage = [
   ["how old are you"],
   ["who are you", "are you human", "are you bot", "are you human or bot"],
   ["who created you", "who made you", "who is your creator"],
-
   [
     "your name please",
     "your name",
@@ -43,7 +42,6 @@ const botReply = [
     "Fantastic, how are you?"
   ],
   ["Getting better. There?", "Somewhat okay!", "Yeah fine. Better stay home!"],
-
   [
     "Nothing much",
     "About to go to sleep",
