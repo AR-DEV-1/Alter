@@ -32,6 +32,7 @@ body {
   background: #ccc;
   margin: 0;
   padding: 0;
+  overflow: hidden; /* Disable body overflow to prevent scrolling */
 }
 
 /* Card styles */
@@ -41,7 +42,8 @@ body {
   padding: 2%;
   box-shadow: 2vw 2vw 12vw 3vw #ccc;
   max-width: 90%;
-  position: relative; /* Ensure relative positioning for absolute child elements */
+  position: relative;
+  overflow: hidden; /* Hide overflow to prevent content from causing scrolling */
 }
 
 /* Header styles */
@@ -60,9 +62,10 @@ body {
 /* Message section */
 .card #message-section {
   height: 50vh;
-  overflow-y: auto;
+  overflow-y: auto; /* Enable scrolling within message section */
   padding: 0 2%;
   margin-bottom: 2%;
+  position: relative;
 }
 
 /* Message styles */
@@ -84,10 +87,10 @@ body {
 
 /* Input section */
 .card #input-section {
-  position: absolute; /* Ensure absolute positioning */
-  bottom: 0; /* Stick to the bottom of the card */
-  left: 0; /* Align with the left edge of the card */
-  width: 100%; /* Occupy full width of the card */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   padding: 2%;
 }
 
@@ -107,6 +110,7 @@ body {
   cursor: pointer;
   outline: none;
 }
+
 
 body .card .send .circle {
   position: relative;
