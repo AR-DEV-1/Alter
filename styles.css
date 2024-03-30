@@ -75,12 +75,13 @@ body {
 
 /* User message styles */
 .card #message-section #user {
-  background-color: #000;
-  color: #fff;
-  border-color: #000;
+  background-color: #fff; /* White background */
+  color: #000; /* Black text color */
+  border: 1px solid #000; /* Black border */
   border-radius: 1vw 0 1vw 1.8vw;
   float: right;
 }
+
 
 /* Input section */
 .card #input-section {
