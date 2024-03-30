@@ -67,10 +67,10 @@ body {
 
 /* Message styles */
 .card .message {
+  margin: 2% 0;
   padding: 2%;
   background-color: #fff;
   border-radius: 1vw;
-  position: relative; /* Ensure relative positioning for absolute child elements */
 }
 
 /* User message styles */
@@ -103,6 +103,7 @@ body {
   cursor: pointer;
   outline: none;
 }
+
 
 
 body .card .send .circle {
