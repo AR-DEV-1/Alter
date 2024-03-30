@@ -70,14 +70,6 @@ const botReply = [
   ["Take some rest, Dude!"]
 ];
 
-const alternative = [
-  "Same here, dude.",
-  "That's cool! Go on...",
-  "Dude...",
-  "Ask something else...",
-  "Hey, I'm listening..."
-];
-
 const synth = window.speechSynthesis;
 
 function voiceControl(string) {
