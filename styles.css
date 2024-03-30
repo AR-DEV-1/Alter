@@ -41,6 +41,7 @@ body {
   padding: 2%;
   box-shadow: 2vw 2vw 12vw 3vw #ccc;
   max-width: 90%;
+  position: relative; /* Ensure relative positioning for absolute child elements */
 }
 
 /* Header styles */
@@ -83,8 +84,10 @@ body {
 
 /* Input section */
 .card #input-section {
-  display: flex;
-  align-items: flex-end;
+  position: absolute; /* Ensure absolute positioning */
+  bottom: 0; /* Stick to the bottom of the card */
+  left: 0; /* Align with the left edge of the card */
+  width: 100%; /* Occupy full width of the card */
   padding: 2%;
 }
 
@@ -104,6 +107,7 @@ body {
   cursor: pointer;
   outline: none;
 }
+
 body .card .send .circle {
   position: relative;
   width: 4.8vw;
