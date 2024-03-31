@@ -110,21 +110,3 @@ body {
   cursor: pointer;
   outline: none;
 }
-
-
-
-body .card .send .circle {
-  position: relative;
-  width: 4.8vw;
-  height: 4.8vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-body .card .send .circle i {
-  font-size: 3vw;
-  margin-left: -1vw;
-  margin-top: 1vw;
-}
-
-
