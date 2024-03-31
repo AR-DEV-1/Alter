@@ -30,7 +30,7 @@ const userMessage = [
   ["i dont know"],
   ["boring"],
   ["im tired"],
-["Microsoft"]
+  ["Microsoft"]
 ];
 const botReply = [
   ["Hello!", "Hi!", "Hey!", "Hi there!"],
