@@ -97,10 +97,11 @@ body {
 /* Input field */
 .card #input-section input[type="text"] {
   flex: 1;
-  height: 5vh;
+  height: 8vh; /* Increase the height */
   border: none;
   border-bottom: solid #000 1px;
   padding: 1%;
+  text-transform: none; /* Allow both capital and non-capital words */
 }
 
 /* Send button */
@@ -110,3 +111,4 @@ body {
   cursor: pointer;
   outline: none;
 }
+
