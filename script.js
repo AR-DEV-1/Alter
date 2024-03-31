@@ -51,7 +51,7 @@ const botReply = [
   ["I am always young."],
   ["I am just a bot", "I am a bot. What are you?"],
   ["AR-DEV-1"],
-  ["I am nameless", "I don't have a name"],
+  ["I am known as Alter", "My name is Alter"],
   ["I love you too", "Me too"],
   ["Have you ever felt bad?", "Glad to hear it"],
   ["Why?", "Why? You shouldn't!", "Try watching TV", "Chat with me."],
