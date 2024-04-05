@@ -1,3 +1,0 @@
-//user stuff
-
-userInput();
